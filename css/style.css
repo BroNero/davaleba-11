@@ -1,0 +1,116 @@
+.box {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    background-image: url(../img/leaves_bushes_green_174515_1920x1080.jpg);
+}
+
+.reg {
+    width: 50%;
+    height: 70%;
+    margin: 0 auto;
+    border-radius: 5%;
+    background-color: rgba(231, 231, 231, 0.35);
+    filter: blur(50%);
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    color: lime;
+}
+
+label {
+    color: lime;
+}
+
+input {
+    width: 500px;
+    border: none;
+    background-color: rgb(190, 190, 190);
+
+}
+
+.name {
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    border-bottom: 75%;
+    border-bottom: 3px solid lime;
+}
+
+.mail {
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    border: none;
+    border-bottom: 3px solid lime;
+}
+
+.gender {
+    width: 500px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    display: flex;
+    font-size: 22px;
+}
+
+.date {
+    width: 500px;
+    margin: 0 auto;
+    font-size: 22px;
+    border: none;
+    border-bottom: 3px solid lime;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+
+}
+
+.country {
+    width: 500px;
+    margin: 0 auto;
+    font-size: 22px;
+    border: none;
+    border-bottom: 3px solid lime;
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox {
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    gap: 25px;
+    width: 150px;
+    font-size: 22px;
+}
+
+.button {
+    margin-top: 50px;
+    gap: 25px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.reset {
+    width: 100px;
+    padding: 7px;
+    border-radius: 20%;
+    background-color: red;
+    color: white;
+}
+
+.confirm {
+    width: 100px;
+    padding: 7px;
+    border-radius: 20%;
+    background-color: lime;
+    color: white;
+}
